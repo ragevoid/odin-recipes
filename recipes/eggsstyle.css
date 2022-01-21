@@ -1,0 +1,163 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+
+ body{
+    background-image: url(img/bananas.png); 
+    font-family: Georgia, Arial, Helvetica, sans-serif;
+    
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 69, 82);
+    color: white;
+    padding: 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 0 0 4px 0;
+}
+
+.n{
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 60px;
+    padding: 4px 0;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+
+}
+.title{
+    width: 93%;
+    background-image: url(img/eggo.jpg);
+    background-position: center; 
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    border-width: 9px 9px 0px 9px;
+    float: right;
+    position: relative;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin: 15px 0 0 30px;
+    height: 300px;
+}
+
+h1{
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: 9px 0px 9px 9px;
+    border-style: dashed;
+    text-align:left;
+   
+    
+}
+
+.ban{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 4px 0;
+    margin: auto;
+    float: left;
+}
+
+.conp{
+    height: 100px;
+    width: 98.5%;
+    border-color: black;
+    border-width: 0px 10px 0 10px;
+    border-style: solid;
+    float: left;
+}
+
+.con1{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 69, 82);
+  }
+
+
+.parrafo{
+    color: white;
+    margin: 15px;
+    flex: 1;
+}
+
+
+.imagen{
+    background-image: url(img/egghelms.png);
+    background-position: center;
+    flex: 1;
+    margin: 15px;
+    background-size: cover;
+}
+
+.espacio{
+    float: right;
+    width: 100%;
+    height: 100px;
+}
+
+.articulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    background-color: rgb(0, 69, 82);
+    color: white;
+    margin: auto;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 10px;
+}
+
+.ingredientes{
+    margin: 40px;
+
+
+}
+
+.nutri{
+    align-self:flex-start;
+    margin: 40px;
+}
+
+.steps{
+    width: 100%;
+    background-color: rgb(0, 69, 82);
+    color: white;
+    margin: auto;
+}
+
+.con2{
+    margin: 0 40px;
+}
+
+.b{
+    height: 230px;
+    width: 90%;
+    border-color: rgb(255, 255, 204);
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    margin: 50px auto;
+}
